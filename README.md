@@ -30,9 +30,9 @@ Usuários devem ser capazes de:
 
 ![](src/images/screenshot-1.png)
 
-### Links
+<!-- ### Links
 
-- Solução URL: [Add solution URL here](https://your-solution-url.com)
+- Solução URL: [Add solution URL here](https://your-solution-url.com)-->
 
 ## Meu Processo
 
