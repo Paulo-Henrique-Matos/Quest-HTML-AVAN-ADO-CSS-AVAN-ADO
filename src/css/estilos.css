@@ -1,0 +1,103 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url('../images/bg-desktop.svg') no-repeat center top;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 6rem;
+    color: #fff;
+}
+
+.header {
+    margin-bottom: 5rem;
+}
+
+.header_logo {
+    width: 200px;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.illustration-img {
+    max-width: 650px;
+}
+
+.container {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.btn button {
+    background: #fff;
+    color: hsl(257, 40%, 49%);
+    font-size: 1.6rem;
+    padding: 1.4rem 6rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease;
+}
+
+.btn button:hover {
+    background: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.footer_social {
+    display: flex;
+    gap: 1.4rem;
+}
+
+.footer_social a {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    font-size: 1.6rem;
+    transition: 0.3s;
+}
+
+.footer_social a:hover {
+    background: #fff;
+    color: hsl(257, 40%, 49%);
+}
